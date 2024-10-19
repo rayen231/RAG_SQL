@@ -4,7 +4,7 @@ import db
 def config():
     os.environ["OPENAI_API_BASE"] = 'https://api.groq.com/openai/v1'
     os.environ["OPENAI_MODEL_NAME"] = 'llama3-70b-8192'  # Adjust based on available model
-    os.environ["OPENAI_API_KEY"] = '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'
+    os.environ["OPENAI_API_KEY"] = 'api key'  # Add your API key here
     # email="congrat mr rayen the application for job is approved!!! "
     GROQ_API_KEY = ""
 
